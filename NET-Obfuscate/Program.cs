@@ -188,7 +188,7 @@ namespace Obfuscate
             obfuscate_methods(md);
             obfuscate_classes(md);
             obfuscate_namespace(md);
-            obfuscate_assembly_info(md);
+            // obfuscate_assembly_info(md); //not required
             //obfuscateVariables(md); // md.Write already simplifies variable names to there type in effect mangling them i.e: aesSetup -> aes1, aesRun -> aes2
             //obfuscateComments(md); // comments are stripped during compile opitmization
 
